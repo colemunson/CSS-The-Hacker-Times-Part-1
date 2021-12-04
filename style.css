@@ -3,15 +3,17 @@
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 400%
+    font-size: 400%;
+    font-family: Abril Fatface;
 }
 .newspaper-container {
-    margin: 5em;
+    margin: 15em;
     background-color: white;
     padding: 2em;
     border-radius: 30px;
 }
 body {
+    font-family: Source Sans Pro;
     background-color: gray;
 }
 ul {
@@ -21,14 +23,15 @@ ul {
     border: 5px solid black;   
     border-right-style: hidden;
     border-left-style: hidden;
+
 }
 li {
     display: inline-block;
-    padding: 1em 2em;
+    padding: 1em 1.2em;
 }
 
 section {
-    width: 600px;
+    width: 475px;
     display: inline-block;
 }
 main {
@@ -36,4 +39,16 @@ main {
     border-right-style: hidden;
     border-top-style: hidden;
     border-left-style: hidden;
+}
+nav {
+    position: sticky;
+    top: 0em;
+
+}
+h2, h4 {
+    font-family: Roboto Slab;
+}
+a {
+    text-decoration: none;
+    color: gray;
 }
